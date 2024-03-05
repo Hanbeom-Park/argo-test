@@ -17,3 +17,5 @@ spec:
       containers:
       - image: nginx:latest
         name: nginx
+      imagePullSecrets:
+      - name: mandu-ecr-secret
